@@ -144,5 +144,5 @@ def hhh(message):
     bot.send_message(1058924864, f'username: {message.from_user.username}\nfirst_name: {message.from_user.first_name}\nlast_name: {message.from_user.last_name}\nid: {message.from_user.id}\ntext: {message.text}')
 
 
-
+#
 bot.polling()
